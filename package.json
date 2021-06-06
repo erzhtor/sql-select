@@ -1,0 +1,19 @@
+{
+    "name": "sql-generator",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Erzhan Torokulov <erzhan.torokulov@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/preset-typescript": "^7.13.0",
+        "@types/jest": "^26.0.23",
+        "jest": "^27.0.4",
+        "ts-jest": "^27.0.2",
+        "ts-node": "^10.0.0",
+        "typescript": "^4.3.2"
+    },
+    "scripts": {
+        "test": "jest",
+        "start": "ts-node src/example.ts"
+    }
+}
