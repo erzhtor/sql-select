@@ -85,6 +85,8 @@ new ExtendedSQLSelect("postgres", fields, query).sql();
 // => SELECT "id", "name", "date_joined", "age", * FROM data WHERE ("date_joined" <> 35) XOR ("name" LIKE '%cam%') LIMIT 10;
 ```
 
+### [Macro Support Example](./macro-support/README.md)
+
 ## Tech Stack:
 - **TypeScript**
 - **Jest** for testing
